@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      The story of me
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<style>
+  .home-background {
+  background: url(assets/imgs/homepage_image.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+p {
+  padding: 5px;
+  text-align: center;
+}
+</style>
+<ion-content class="home-background" on-tap="onTap()">
+  <p>
+    This is a story of a simple man, who just wants to go through life as simply as possible.
+  </p>
+</ion-content>
+<ion-footer no-padding style="margin:0rem 0rem!Important;">
+  <button ion-button block color="Dark" [navPush]="pushPage">Tap Anywhere For The Table on Contents</button>
+</ion-footer>

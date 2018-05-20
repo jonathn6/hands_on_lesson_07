@@ -1,0 +1,48 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Chapter 3</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  <style>
+      .vertical-align-content > *
+  {
+       display: flex!important;
+       align-content: center!important;
+       align-items: center!important;
+  }
+  </style>
+  <ion-content text-center class="vertical-align-content">
+      <ion-grid>
+          <ion-row>
+              <ion-col>
+                      <h5 style="text-align: center;">Chapter 3 - The Rebel years</h5><br /><br />
+                      <img src="http://lorempixel.com/400/200">
+              </ion-col>
+          </ion-row>
+      </ion-grid>
+  </ion-content>
+  <ion-footer>
+      <ion-grid>
+          <ion-row>          
+              <ion-col col-1>
+                  <button ion-button solid>
+                      <ion-icon name="arrow-round-back" (click)="page06()"></ion-icon>
+                  </button>
+              </ion-col>
+              <ion-col col-4>&nbsp;</ion-col>
+              <ion-col col-2>
+                <br />Page 7
+              </ion-col>
+              <ion-col col-3>&nbsp;</ion-col>
+              <ion-col col-1>
+                  <button ion-button solid>
+                      <ion-icon name="arrow-round-forward" (click)="page08()"></ion-icon>
+                  </button>
+                  &nbsp;&nbsp;
+              </ion-col>  
+              <ion-col col-1>&nbsp;</ion-col>
+          </ion-row>
+      </ion-grid>
+    </ion-footer>
